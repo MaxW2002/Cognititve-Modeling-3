@@ -1,0 +1,39 @@
+Brightspace Question 2 Overview
+This document provides the answers for Brightspace Question 2 regarding the Relative Frequency (RF) model analysis for participant 
+PrEstExp_811_111418_122039.csv
+, along with a detailed explanation of the steps taken to obtain them.
+
+1. Answers
+For participant file 
+PrEstExp_811_111418_122039.csv
+:
+
+Question	Metric	Value
+(A)	MSE (Mean Squared Error)	0.03868
+(B)	Model Estimate for b[0]	19.08217
+(C)	Model Estimate for 'A1 and B1'	0.36384
+2. Process
+To arrive at these answers, the following steps were executed:
+
+Step 1: Environment Setup
+Created specific directories required by the script: all_data and fit_results.
+Isolated the target participant's data by copying 
+Experiment 2/PrEstExp_811_111418_122039.csv
+ into the all_data folder. This ensured the script only processed this specific file.
+Step 2: Code Modifications
+The provided Python script 
+model_fitting_RF_MSE.py
+ was modified to:
+
+Dynamic Looping: Changed the loop range(84) to range(len(pData)) to automatically adapt to the number of files found in all_data (which was 1 in this case).
+Output Extraction: Added specific print statements to extract the exact values required:
+Printed minMSE for Question (A).
+Printed fit_all_data.x[1] (which aligns with parameter b[0]) for Question (B).
+Printed allpredmeans[4] (which corresponds to the probability of "A and B" for the first scenario) for Question (C).
+Step 3: Execution
+The modified script was executed using Python. The differential_evolution algorithm minimized the MSE to find the best-fitting parameters for the RF model given the participant's data.
+
+3. Explanation of Values
+(A) MSE (0.03868): This represents the Mean Squared Error, a measure of the discrepancy between the model's predictions and the human participant's actual estimates. A lower value indicates a better fit.
+(B) b[0] (19.08217): This is one of the free parameters optimized by the model. Specifically, it corresponds to the estimated frequency count for the event "not A and B" (not cold and rainy) in the first scenario.
+(C) P('A1 and B1') (0.36384): This is the model's predicted probability for the conjunction statement "cold and rainy" (A and B). It is calculated based on the optimized parameters (frequencies) found by the model.
