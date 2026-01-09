@@ -1,0 +1,245 @@
+/Users/juliannobbe/School/Universiteit utrecht/master/Cognitive modeling/assignment3/Cognititve-Modeling-3/model_fitting_BS_MSE_forFixedValues.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  truePr.append((b/(b+d)))
+/Users/juliannobbe/School/Universiteit utrecht/master/Cognitive modeling/assignment3/Cognititve-Modeling-3/model_fitting_BS_MSE_forFixedValues.py:91: RuntimeWarning: invalid value encountered in scalar divide
+  truePr.append((d/(b+d)))
+84  participants were considered!
+Processing Participant No.1 all_data/PrEstExp_603_111318_154818.csv
+Processing Participant No.2 all_data/PrEstExp_811_111418_122039.csv
+Processing Participant No.3 all_data/PrEstExp_305_111318_125448.csv
+Processing Participant No.4 all_data/PrEstExp_904_111418_132622.csv
+Processing Participant No.5 all_data/PrEstExp_110_111218_135256.csv
+Processing Participant No.6 all_data/PrEstExp_914_111418_143014.csv
+Processing Participant No.7 all_data/PrEstExp_709_111418_111137.csv
+Processing Participant No.8 all_data/PrEstExp_208_111318_114852.csv
+Processing Participant No.9 all_data/PrEstExp_708_111418_111135.csv
+Processing Participant No.10 all_data/PrEstExp_108_111218_135241.csv
+Processing Participant No.11 all_data/PrEstExp_510_111318_150032.csv
+Processing Participant No.12 all_data/PrEstExp_511_111318_150034.csv
+Processing Participant No.13 all_data/PrEstExp_808_111418_122014.csv
+Processing Participant No.14 all_data/PrEstExp_409_111318_135858.csv
+Processing Participant No.15 all_data/PrEstExp_201_111318_114720.csv
+Processing Participant No.16 all_data/PrEstExp_801_111418_121921.csv
+Processing Participant No.17 all_data/PrEstExp_406_111318_135832.csv
+Processing Participant No.18 all_data/PrEstExp_411_111318_140804.csv
+Processing Participant No.19 all_data/PrEstExp_310_111318_125521.csv
+Processing Participant No.20 all_data/PrEstExp_410_111318_135904.csv
+Processing Participant No.21 all_data/PrEstExp_705_111418_111117.csv
+Processing Participant No.22 all_data/PrEstExp_102_111218_135148.csv
+Processing Participant No.23 all_data/PrEstExp_003_111218_115950.csv
+Processing Participant No.24 all_data/PrEstExp_903_111418_132557.csv
+Processing Participant No.25 all_data/PrEstExp_905_111418_132653.csv
+Processing Participant No.26 all_data/PrEstExp_605_111318_154836.csv
+Processing Participant No.27 all_data/PrEstExp_703_111418_111048.csv
+Processing Participant No.28 all_data/PrEstExp_105_111218_135212.csv
+Processing Participant No.29 all_data/PrEstExp_912_111418_143010.csv
+Processing Participant No.30 all_data/PrEstExp_404_111318_135823.csv
+Processing Participant No.31 all_data/PrEstExp_803_111418_121924.csv
+Processing Participant No.32 all_data/PrEstExp_804_111418_121944.csv
+Processing Participant No.33 all_data/PrEstExp_010_111218_120038.csv
+Processing Participant No.34 all_data/PrEstExp_807_111418_122009.csv
+Processing Participant No.35 all_data/PrEstExp_001_111218_115935.csv
+Processing Participant No.36 all_data/PrEstExp_104_111218_135205.csv
+Processing Participant No.37 all_data/PrEstExp_601_111318_154758.csv
+Processing Participant No.38 all_data/PrEstExp_710_111418_111151.csv
+Processing Participant No.39 all_data/PrEstExp_901_111418_132518.csv
+Processing Participant No.40 all_data/PrEstExp_802_111418_121930.csv
+Processing Participant No.41 all_data/PrEstExp_806_111418_122000.csv
+Processing Participant No.42 all_data/PrEstExp_906_111418_132944.csv
+Processing Participant No.43 all_data/PrEstExp_503_111318_145942.csv
+Processing Participant No.44 all_data/PrEstExp_711_111418_111158.csv
+Processing Participant No.45 all_data/PrEstExp_203_111318_114739.csv
+Processing Participant No.46 all_data/PrEstExp_005_111218_120004.csv
+Processing Participant No.47 all_data/PrEstExp_707_111418_111131.csv
+Processing Participant No.48 all_data/PrEstExp_706_111418_111123.csv
+Processing Participant No.49 all_data/PrEstExp_908_111418_132718.csv
+Processing Participant No.50 all_data/PrEstExp_008_111218_120025.csv
+Processing Participant No.51 all_data/PrEstExp_702_111418_111052.csv
+Processing Participant No.52 all_data/PrEstExp_501_111318_145930.csv
+Processing Participant No.53 all_data/PrEstExp_604_111318_154828.csv
+Processing Participant No.54 all_data/PrEstExp_902_111418_132601.csv
+Processing Participant No.55 all_data/PrEstExp_401_111318_135805.csv
+Processing Participant No.56 all_data/PrEstExp_909_111418_132726.csv
+Processing Participant No.57 all_data/PrEstExp_405_111318_135829.csv
+Processing Participant No.58 all_data/PrEstExp_606_111318_154848.csv
+Processing Participant No.59 all_data/PrEstExp_009_111218_120030.csv
+Processing Participant No.60 all_data/PrEstExp_402_111318_135811.csv
+Processing Participant No.61 all_data/PrEstExp_109_111218_135248.csv
+Processing Participant No.62 all_data/PrEstExp_107_111218_135230.csv
+Processing Participant No.63 all_data/PrEstExp_704_111418_111108.csv
+Processing Participant No.64 all_data/PrEstExp_103_111218_135156.csv
+Processing Participant No.65 all_data/PrEstExp_701_111418_111041.csv
+Processing Participant No.66 all_data/PrEstExp_407_111318_135839.csv
+Processing Participant No.67 all_data/PrEstExp_101_111218_135137.csv
+Processing Participant No.68 all_data/PrEstExp_408_111318_135853.csv
+Processing Participant No.69 all_data/PrEstExp_004_111218_115958.csv
+Processing Participant No.70 all_data/PrEstExp_403_111318_135815.csv
+Processing Participant No.71 all_data/PrEstExp_910_111418_132743.csv
+Processing Participant No.72 all_data/PrEstExp_303_111318_125434.csv
+Processing Participant No.73 all_data/PrEstExp_006_111218_120007.csv
+Processing Participant No.74 all_data/PrEstExp_602_111318_154810.csv
+Processing Participant No.75 all_data/PrEstExp_309_111318_125514.csv
+Processing Participant No.76 all_data/PrEstExp_502_111318_145937.csv
+Processing Participant No.77 all_data/PrEstExp_911_111418_132754.csv
+Processing Participant No.78 all_data/PrEstExp_505_111318_145955.csv
+Processing Participant No.79 all_data/PrEstExp_308_111318_125510.csv
+Processing Participant No.80 all_data/PrEstExp_007_111218_120016.csv
+Processing Participant No.81 all_data/PrEstExp_810_111418_122033.csv
+Processing Participant No.82 all_data/PrEstExp_809_111418_122019.csv
+Processing Participant No.83 all_data/PrEstExp_304_111318_125442.csv
+Processing Participant No.84 all_data/PrEstExp_508_111318_150015.csv
+
+***** Running analysis with 2 participants *****
+
+
+Running for N=1, beta=0.1
+  participant 1 (of 2): MSE = 0.088685
+  participant 2 (of 2): MSE = 0.030842
+  >>> Mean MSE across all 2 participants: 0.059764
+
+Running for N=1, beta=0.5
+  participant 1 (of 2): MSE = 0.080850
+  participant 2 (of 2): MSE = 0.019418
+  >>> Mean MSE across all 2 participants: 0.050134
+
+Running for N=1, beta=1
+  participant 1 (of 2): MSE = 0.080116
+  participant 2 (of 2): MSE = 0.015942
+  >>> Mean MSE across all 2 participants: 0.048029
+
+Running for N=1, beta=2
+  participant 1 (of 2): MSE = 0.084082
+  participant 2 (of 2): MSE = 0.014655
+  >>> Mean MSE across all 2 participants: 0.049369
+
+Running for N=1, beta=5
+  participant 1 (of 2): MSE = 0.092765
+  participant 2 (of 2): MSE = 0.015743
+  >>> Mean MSE across all 2 participants: 0.054254
+
+Running for N=2, beta=0.1
+  participant 1 (of 2): MSE = 0.091183
+  participant 2 (of 2): MSE = 0.034231
+  >>> Mean MSE across all 2 participants: 0.062707
+
+Running for N=2, beta=0.5
+  participant 1 (of 2): MSE = 0.084170
+  participant 2 (of 2): MSE = 0.024414
+  >>> Mean MSE across all 2 participants: 0.054292
+
+Running for N=2, beta=1
+  participant 1 (of 2): MSE = 0.080851
+  participant 2 (of 2): MSE = 0.019418
+  >>> Mean MSE across all 2 participants: 0.050134
+
+Running for N=2, beta=2
+  participant 1 (of 2): MSE = 0.080116
+  participant 2 (of 2): MSE = 0.015942
+  >>> Mean MSE across all 2 participants: 0.048029
+
+Running for N=2, beta=5
+  participant 1 (of 2): MSE = 0.086176
+  participant 2 (of 2): MSE = 0.014679
+  >>> Mean MSE across all 2 participants: 0.050427
+
+Running for N=5, beta=0.1
+  participant 1 (of 2): MSE = 0.093079
+  participant 2 (of 2): MSE = 0.036747
+  >>> Mean MSE across all 2 participants: 0.064913
+
+Running for N=5, beta=0.5
+  participant 1 (of 2): MSE = 0.088685
+  participant 2 (of 2): MSE = 0.030842
+  >>> Mean MSE across all 2 participants: 0.059764
+
+Running for N=5, beta=1
+  participant 1 (of 2): MSE = 0.085327
+  participant 2 (of 2): MSE = 0.026106
+  >>> Mean MSE across all 2 participants: 0.055717
+
+Running for N=5, beta=2
+  participant 1 (of 2): MSE = 0.081834
+  participant 2 (of 2): MSE = 0.020921
+  >>> Mean MSE across all 2 participants: 0.051378
+
+Running for N=5, beta=5
+  participant 1 (of 2): MSE = 0.080116
+  participant 2 (of 2): MSE = 0.015942
+  >>> Mean MSE across all 2 participants: 0.048029
+
+Running for N=10, beta=0.1
+  participant 1 (of 2): MSE = 0.093795
+  participant 2 (of 2): MSE = 0.037685
+  >>> Mean MSE across all 2 participants: 0.065740
+
+Running for N=10, beta=0.5
+  participant 1 (of 2): MSE = 0.091183
+  participant 2 (of 2): MSE = 0.034231
+  >>> Mean MSE across all 2 participants: 0.062707
+
+Running for N=10, beta=1
+  participant 1 (of 2): MSE = 0.088685
+  participant 2 (of 2): MSE = 0.030842
+  >>> Mean MSE across all 2 participants: 0.059764
+
+Running for N=10, beta=2
+  participant 1 (of 2): MSE = 0.085327
+  participant 2 (of 2): MSE = 0.026106
+  >>> Mean MSE across all 2 participants: 0.055717
+
+Running for N=10, beta=5
+  participant 1 (of 2): MSE = 0.080851
+  participant 2 (of 2): MSE = 0.019418
+  >>> Mean MSE across all 2 participants: 0.050134
+
+Running for N=50, beta=0.1
+  participant 1 (of 2): MSE = 0.094401
+  participant 2 (of 2): MSE = 0.038476
+  >>> Mean MSE across all 2 participants: 0.066439
+
+Running for N=50, beta=0.5
+  participant 1 (of 2): MSE = 0.093795
+  participant 2 (of 2): MSE = 0.037685
+  >>> Mean MSE across all 2 participants: 0.065740
+
+Running for N=50, beta=1
+  participant 1 (of 2): MSE = 0.093080
+  participant 2 (of 2): MSE = 0.036747
+  >>> Mean MSE across all 2 participants: 0.064913
+
+Running for N=50, beta=2
+  participant 1 (of 2): MSE = 0.091777
+  participant 2 (of 2): MSE = 0.035023
+  >>> Mean MSE across all 2 participants: 0.063400
+
+Running for N=50, beta=5
+  participant 1 (of 2): MSE = 0.088685
+  participant 2 (of 2): MSE = 0.030842
+  >>> Mean MSE across all 2 participants: 0.059764
+
+Running for N=100, beta=0.1
+  participant 1 (of 2): MSE = 0.094479
+  participant 2 (of 2): MSE = 0.038578
+  >>> Mean MSE across all 2 participants: 0.066528
+
+Running for N=100, beta=0.5
+  participant 1 (of 2): MSE = 0.094170
+  participant 2 (of 2): MSE = 0.038175
+  >>> Mean MSE across all 2 participants: 0.066173
+
+Running for N=100, beta=1
+  participant 1 (of 2): MSE = 0.093795
+  participant 2 (of 2): MSE = 0.037685
+  >>> Mean MSE across all 2 participants: 0.065740
+
+Running for N=100, beta=2
+  participant 1 (of 2): MSE = 0.093079
+  participant 2 (of 2): MSE = 0.036747
+  >>> Mean MSE across all 2 participants: 0.064913
+
+Running for N=100, beta=5
+  participant 1 (of 2): MSE = 0.091183
+  participant 2 (of 2): MSE = 0.034231
+  >>> Mean MSE across all 2 participants: 0.062707
+
+Saved results to fit_results/bs_fixed_N_beta_results.pkl
+Saved plot to fit_results/bs_fixed_N_beta_MSE.png
